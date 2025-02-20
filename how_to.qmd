@@ -1,0 +1,8 @@
+---
+title: "How to"
+format: html
+---
+
+## Install materials
+
+Aquí irá las instrucciones para bajarte los materiales del curso...

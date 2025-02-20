@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "materials.html",
+    "href": "materials.html",
+    "title": "Materials",
+    "section": "",
+    "text": "Aquí irán las diapos de cada sesión"
+  },
+  {
+    "objectID": "materials.html#class-slides",
+    "href": "materials.html#class-slides",
+    "title": "Materials",
+    "section": "",
+    "text": "Aquí irán las diapos de cada sesión"
+  },
+  {
+    "objectID": "materials.html#exercises",
+    "href": "materials.html#exercises",
+    "title": "Materials",
+    "section": "Exercises",
+    "text": "Exercises\nAquí irán los ejercicios resueltos de cada sesión"
+  },
+  {
+    "objectID": "home.html",
+    "href": "home.html",
+    "title": "Home",
+    "section": "",
+    "text": "Aquí habrá un descripción del curso, que sirva como página principal de la web"
+  },
+  {
+    "objectID": "home.html#curs-aplicat-de-bioestadística-amb-r",
+    "href": "home.html#curs-aplicat-de-bioestadística-amb-r",
+    "title": "Home",
+    "section": "",
+    "text": "Aquí habrá un descripción del curso, que sirva como página principal de la web"
+  },
+  {
+    "objectID": "curs_bioestadistica_R.html",
+    "href": "curs_bioestadistica_R.html",
+    "title": "curs_bioestadistica_R",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "curs_bioestadistica_R.html#quarto",
+    "href": "curs_bioestadistica_R.html#quarto",
+    "title": "curs_bioestadistica_R",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "how_to.html",
+    "href": "how_to.html",
+    "title": "How to",
+    "section": "",
+    "text": "Aquí irá las instrucciones para bajarte los materiales del curso…"
+  },
+  {
+    "objectID": "how_to.html#install-materials",
+    "href": "how_to.html#install-materials",
+    "title": "How to",
+    "section": "",
+    "text": "Aquí irá las instrucciones para bajarte los materiales del curso…"
+  }
+]

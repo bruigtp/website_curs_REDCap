@@ -1,0 +1,8 @@
+---
+title: "Home"
+format: html
+---
+
+## Curs aplicat de bioestadística amb R
+
+Aquí habrá un descripción del curso, que sirva como página principal de la web

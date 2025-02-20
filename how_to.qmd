@@ -5,4 +5,12 @@ format: html
 
 ## Install materials
 
-Aquí irá las instrucciones para bajarte los materiales del curso...
+We have to install the course R package and run the function designed to install all the materials:
+
+```{r}
+library(pak)
+
+pak::pak("bruigtp/CursBioR")
+
+CursBioR::install_course(destdir = "your_path")
+```

@@ -1,11 +1,13 @@
 project:
   type: website
+  output-dir: docs
   
 website:
   title: "curs_bioestadistica_R"
   navbar: 
     left:
-      - home.qmd
+      - href: home.qmd
+        text: Home
       - how_to.qmd
       - materials.qmd
       

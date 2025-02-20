@@ -1,0 +1,13 @@
+---
+title: "Materials"
+format: html
+---
+
+## Class Slides
+
+Aquí irán las diapos de cada sesión
+
+
+## Exercises
+
+Aquí irán los ejercicios resueltos de cada sesión

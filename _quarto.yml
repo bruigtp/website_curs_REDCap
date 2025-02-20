@@ -6,8 +6,7 @@ website:
   title: "curs_bioestadistica_R"
   navbar: 
     left:
-      - href: home.qmd
-        text: Home
+      - index.qmd
       - how_to.qmd
       - materials.qmd
       

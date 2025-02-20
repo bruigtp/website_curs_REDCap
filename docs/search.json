@@ -21,18 +21,18 @@
     "text": "Exercises\nAquí irán los ejercicios resueltos de cada sesión"
   },
   {
-    "objectID": "home.html",
-    "href": "home.html",
-    "title": "Home",
+    "objectID": "how_to.html",
+    "href": "how_to.html",
+    "title": "How to",
     "section": "",
-    "text": "Aquí habrá un descripción del curso, que sirva como página principal de la web"
+    "text": "Aquí irá las instrucciones para bajarte los materiales del curso…"
   },
   {
-    "objectID": "home.html#curs-aplicat-de-bioestadística-amb-r",
-    "href": "home.html#curs-aplicat-de-bioestadística-amb-r",
-    "title": "Home",
+    "objectID": "how_to.html#install-materials",
+    "href": "how_to.html#install-materials",
+    "title": "How to",
     "section": "",
-    "text": "Aquí habrá un descripción del curso, que sirva como página principal de la web"
+    "text": "Aquí irá las instrucciones para bajarte los materiales del curso…"
   },
   {
     "objectID": "curs_bioestadistica_R.html",
@@ -49,17 +49,17 @@
     "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "how_to.html",
-    "href": "how_to.html",
-    "title": "How to",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
     "section": "",
-    "text": "Aquí irá las instrucciones para bajarte los materiales del curso…"
+    "text": "Aquí habrá un descripción del curso, que sirva como página principal de la web"
   },
   {
-    "objectID": "how_to.html#install-materials",
-    "href": "how_to.html#install-materials",
-    "title": "How to",
+    "objectID": "index.html#curs-aplicat-de-bioestadística-amb-r",
+    "href": "index.html#curs-aplicat-de-bioestadística-amb-r",
+    "title": "Home",
     "section": "",
-    "text": "Aquí irá las instrucciones para bajarte los materiales del curso…"
+    "text": "Aquí habrá un descripción del curso, que sirva como página principal de la web"
   }
 ]

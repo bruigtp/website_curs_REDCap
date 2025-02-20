@@ -3,7 +3,7 @@ project:
   output-dir: docs
   
 website:
-  title: "curs_bioestadistica_R"
+  title: "Curs Bioestadística R"
   navbar: 
     left:
       - index.qmd

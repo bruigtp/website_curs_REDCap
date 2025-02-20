@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "website_curs_bioestadistica_R.html",
+    "href": "website_curs_bioestadistica_R.html",
+    "title": "curs_bioestadistica_R",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "website_curs_bioestadistica_R.html#quarto",
+    "href": "website_curs_bioestadistica_R.html#quarto",
+    "title": "curs_bioestadistica_R",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Aquí habrá un descripción del curso, que sirva como página principal de la web"
+  },
+  {
+    "objectID": "index.html#curs-aplicat-de-bioestadística-amb-r",
+    "href": "index.html#curs-aplicat-de-bioestadística-amb-r",
+    "title": "Home",
+    "section": "",
+    "text": "Aquí habrá un descripción del curso, que sirva como página principal de la web"
+  },
+  {
+    "objectID": "how_to.html",
+    "href": "how_to.html",
+    "title": "How to",
+    "section": "",
+    "text": "Aquí irá las instrucciones para bajarte los materiales del curso…"
+  },
+  {
+    "objectID": "how_to.html#install-materials",
+    "href": "how_to.html#install-materials",
+    "title": "How to",
+    "section": "",
+    "text": "Aquí irá las instrucciones para bajarte los materiales del curso…"
+  },
+  {
     "objectID": "materials.html",
     "href": "materials.html",
     "title": "Materials",
@@ -19,47 +61,5 @@
     "title": "Materials",
     "section": "Exercises",
     "text": "Exercises\nAquí irán los ejercicios resueltos de cada sesión"
-  },
-  {
-    "objectID": "how_to.html",
-    "href": "how_to.html",
-    "title": "How to",
-    "section": "",
-    "text": "Aquí irá las instrucciones para bajarte los materiales del curso…"
-  },
-  {
-    "objectID": "how_to.html#install-materials",
-    "href": "how_to.html#install-materials",
-    "title": "How to",
-    "section": "",
-    "text": "Aquí irá las instrucciones para bajarte los materiales del curso…"
-  },
-  {
-    "objectID": "curs_bioestadistica_R.html",
-    "href": "curs_bioestadistica_R.html",
-    "title": "curs_bioestadistica_R",
-    "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "curs_bioestadistica_R.html#quarto",
-    "href": "curs_bioestadistica_R.html#quarto",
-    "title": "curs_bioestadistica_R",
-    "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "Aquí habrá un descripción del curso, que sirva como página principal de la web"
-  },
-  {
-    "objectID": "index.html#curs-aplicat-de-bioestadística-amb-r",
-    "href": "index.html#curs-aplicat-de-bioestadística-amb-r",
-    "title": "Home",
-    "section": "",
-    "text": "Aquí habrá un descripción del curso, que sirva como página principal de la web"
   }
 ]

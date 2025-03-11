@@ -173,27 +173,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
 <li>
 <p>Load package and run <code>install_course()</code></p>
-<p>This function will create a new repository in the specified path in your computer:</p>
+<p>This function will save the materials to an existing path on your computer specified by the <code>destdir</code> argument:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(CursBioR)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">#Download materials for the 1st session:</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">install_course</span>(<span class="at">destdir =</span> <span class="st">"&lt;YOUR_PATH/CursBioR&gt;"</span>, <span class="at">session =</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">#Download materials to your path:</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">install_course</span>(<span class="at">destdir =</span> <span class="st">"&lt;YOUR_PATH&gt;"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Remember that R can’t read Windows backslash in paths: <code>\</code>. We have to manually change all the <code>\</code> for the <code>/</code> in a path:</p>
 <ul>
 <li><p>Incorrect: <code>C:\Users\username\Documents\CursBioR</code></p></li>
 <li><p>Correct: <code>C:/Users/username/Documents/CursBioR</code></p></li>
 </ul>
-</li>
-<li>
-<p>Repeat the previous step for a new session</p>
-<p>This step will have to be repeated every week each time new material will be uploaded:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(CursBioR)</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">#Download materials for the 2nd session:</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">install_course</span>(<span class="at">destdir =</span> <span class="st">"&lt;YOUR_PATH/CursBioR&gt;"</span>, <span class="at">session =</span> <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The function downloads the material that has been posted up to that point. For each session, the function must be run again to get the new material for the new sessions.</p>
+</div>
 </div>
 </li>
 </ol>

@@ -22,13 +22,13 @@ pak::pak("bruigtp/CursBioR")
 
 <li> Load package and run `install_course()`
 
-This function will create a new repository in the specified path in your computer:
+This function will save the materials to an existing path on your computer specified by the `destdir` argument:
 
 ```{r}
 library(CursBioR)
 
-#Download materials for the 1st session:
-install_course(destdir = "<YOUR_PATH/CursBioR>", session = 1)
+#Download materials to your path:
+install_course(destdir = "<YOUR_PATH>")
 ```
 
 Remember that R can't read Windows backslash in paths: `\`. We have to manually change all the `\` for the `/` in a path:
@@ -37,18 +37,9 @@ Remember that R can't read Windows backslash in paths: `\`. We have to manually 
 
  - Correct: `C:/Users/username/Documents/CursBioR`
 
-</li>
-
-<li> Repeat the previous step for a new session
-
-This step will have to be repeated every week each time new material will be uploaded:
-
-```{r}
-library(CursBioR)
-
-#Download materials for the 2nd session:
-install_course(destdir = "<YOUR_PATH/CursBioR>", session = 2)
-```
+::: {.callout-important}
+The function downloads the material that has been posted up to that point. For each session, the function must be run again to get the new material for the new sessions.
+:::
 
 </li>
 </ol>

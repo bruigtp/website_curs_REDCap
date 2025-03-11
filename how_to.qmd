@@ -31,7 +31,7 @@ library(CursBioR)
 install_course(destdir = "<YOUR_PATH>")
 ```
 
-Remember that R can't read Windows backslash in paths: `\`. We have to manually change all the `\` for the `/` in a path:
+Remember that R can't read Windows backslash in paths (`\`). Thus, we have to manually change all the `\` for the `/` in a path:
 
  - Incorrect: `C:\Users\username\Documents\CursBioR`
 

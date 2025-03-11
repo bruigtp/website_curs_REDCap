@@ -1,0 +1,11 @@
+---
+format: html
+---
+
+## Class Slides
+
+Slides are published online:
+
+<ul>
+<li><a href = "https://rpubs.com/pasahe/1282997"> 01. Introduction</a></li>
+</ul>

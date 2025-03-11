@@ -1,16 +1,54 @@
 ---
-title: "How to"
 format: html
+execute:
+  eval: false
 ---
 
-## Install materials
+## How to install materials
 
-We have to install the course R package and run the function designed to install all the materials:
+To install the materials locally in your computer you have to follow these instructions:
+
+<ol>
+<li> Install the package {CursBioR}
+
+If you don't have the package, you have to install it for the first time:
 
 ```{r}
-library(pak)
-
-pak::pak("bruigtp/CursBioR")
-
-CursBioR::install_course(destdir = "your_path")
+#Install it for the first time:
+pak::pak("CursBioR")
 ```
+
+</li>
+
+<li> Load package and run `install_course()`
+
+This function will download the materials in the path in your computer specified with `destdir`:
+
+```{r}
+library(CursBioR)
+
+#Download materials for the 1st session:
+install_course(destdir = "<YOUR_PATH/CursBioR>", session = 1)
+```
+
+Remember that R can't read Windows backslash in paths: `\`. We have to manually change all the `\` for the `/` in a path:
+
+ - Incorrect: `C:\Users\username\Documents\CursBioR`
+
+ - Correct: `C:/Users/username/Documents/CursBioR`
+
+</li>
+
+<li> Repeat the previous step for a new session
+
+This step will have to be repeated every week each time new material will be uploaded:
+
+```{r}
+library(CursBioR)
+
+#Download materials for the 2nd session:
+install_course(destdir = "<YOUR_PATH/CursBioR>", session = 2)
+```
+
+</li>
+</ol>

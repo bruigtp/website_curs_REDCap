@@ -3,12 +3,15 @@ project:
   output-dir: docs
   
 website:
-  title: "Curs Bioestadística R"
+  title: "Applied Biostatistics Course with R"
   navbar: 
     left:
-      - index.qmd
-      - how_to.qmd
-      - materials.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "Install materials"
+        href: how_to.qmd
+      - text: "Slides"
+        href: slides.qmd
       
 format: 
   html:

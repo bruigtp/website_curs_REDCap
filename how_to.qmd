@@ -22,7 +22,7 @@ pak::pak("bruigtp/CursBioR")
 
 <li> Load package and run `install_course()`
 
-This function will download the materials in the path in your computer specified with `destdir`:
+This function will create a new repository in the specified path in your computer:
 
 ```{r}
 library(CursBioR)

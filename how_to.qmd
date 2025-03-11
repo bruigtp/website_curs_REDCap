@@ -15,7 +15,7 @@ If you don't have the package, you have to install it for the first time:
 
 ```{r}
 #Install it for the first time:
-pak::pak("CursBioR")
+pak::pak("bruigtp/CursBioR")
 ```
 
 </li>

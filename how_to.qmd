@@ -9,12 +9,19 @@ execute:
 To install the materials locally in your computer you have to follow these instructions:
 
 <ol>
-<li> Install the package {CursBioR}
+<li> Install the package {pak} (first time)
+
+If you don't have this package, you have to install it for the first time:
+
+```{r}
+install.packages("pak")
+```
+
+<li> Install the package {CursBioR} (first time)
 
 If you don't have the package, you have to install it for the first time:
 
 ```{r}
-#Install it for the first time:
 pak::pak("bruigtp/CursBioR")
 ```
 
@@ -38,7 +45,7 @@ Remember that R can't read Windows backslash in paths (`\`). Thus, we have to ma
  - Correct: `C:/Users/username/Documents/CursBioR`
 
 ::: {.callout-important}
-The function downloads the material that has been posted up to that point. For each session, the function must be run again to get the new material for the new sessions.
+The function downloads the material that has been posted up to that point. For each session, we have to repeat step 3 again to get the new material for the new sessions.
 :::
 
 </li>

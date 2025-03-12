@@ -164,21 +164,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>To install the materials locally in your computer you have to follow these instructions:</p>
 <ol>
 <li>
-<p>Install the package {CursBioR}</p>
+<p>Install the package {pak} (first time)</p>
+<p>If you don’t have this package, you have to install it for the first time:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"pak"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</li><li>
+<p>Install the package {CursBioR} (first time)</p>
 <p>If you don’t have the package, you have to install it for the first time:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Install it for the first time:</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>pak<span class="sc">::</span><span class="fu">pak</span>(<span class="st">"bruigtp/CursBioR"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>pak<span class="sc">::</span><span class="fu">pak</span>(<span class="st">"bruigtp/CursBioR"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </li>
 <li>
 <p>Load package and run <code>install_course()</code></p>
 <p>This function will save the materials to an existing path on your computer specified by the <code>destdir</code> argument:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(CursBioR)</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">#Download materials to your path:</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">install_course</span>(<span class="at">destdir =</span> <span class="st">"&lt;YOUR_PATH&gt;"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(CursBioR)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">#Download materials to your path:</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">install_course</span>(<span class="at">destdir =</span> <span class="st">"&lt;YOUR_PATH&gt;"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Remember that R can’t read Windows backslash in paths (<code>\</code>). Thus, we have to manually change all the <code>\</code> for the <code>/</code> in a path:</p>
 <ul>
@@ -195,7 +200,7 @@ Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The function downloads the material that has been posted up to that point. For each session, the function must be run again to get the new material for the new sessions.</p>
+<p>The function downloads the material that has been posted up to that point. For each session, we have to repeat step 3 again to get the new material for the new sessions.</p>
 </div>
 </div>
 </li>

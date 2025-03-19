@@ -10,4 +10,5 @@ Slides are published online:
 
 <ul>
 <li><a href = "https://rpubs.com/bruigtp/1286240"> 01. Introduction to R and Data Management</a></li>
+<li><a href = "https://rpubs.com/bruigtp/1286245"> 02. Statistics Inference</a></li>
 </ul>

@@ -9,5 +9,5 @@ format:
 Slides are published online:
 
 <ul>
-<li><a href = "https://rpubs.com/pasahe/1282997"> 01. Introduction</a></li>
+<li><a href = "https://rpubs.com/bruigtp/1286240"> 01. Introduction to R and Data Management</a></li>
 </ul>

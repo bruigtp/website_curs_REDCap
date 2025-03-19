@@ -1,0 +1,9 @@
+---
+format: html
+---
+
+## Authors
+
+![](WWW/bru.jpeg){fig-align="center"}
+
+<a href = "https://www.germanstrias.org/en/technology-services/biostatistics/">**Biostatistics Support and Research Unit**</a><br>Germans Trias i Pujol Research Institute and Hospital (IGTP)<br> Badalona, Spain

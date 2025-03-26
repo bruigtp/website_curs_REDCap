@@ -8,16 +8,28 @@ execute:
 
 ## How to install materials
 
+### Manually
+
+You can go directly to the Github repository containing all course materials:
+
+<a href = "https://github.com/bruigtp/curs_bioestadistica_R">https://github.com/bruigtp/curs_bioestadistica_R</a>
+
+There, you can download the materials in a zip compressed folder.
+
+### Using R
+
 To install the materials locally in your computer you have to follow these instructions:
 
 <ol>
-<li> Install the package {pak} (first time)
+<li> Install the packages {pak} and {usethis} (first time)
 
-If you don't have this package, you have to install it for the first time:
+If you don't have these packages, you have to install them for the first time:
 
 ```{r}
-install.packages("pak")
+install.packages(c("pak", "usethis"))
 ```
+
+To install these packages is necessary to have <a href = "https://cran.r-project.org/bin/windows/Rtools/rtools45/rtools.html">Rtools</a> installed in your computer.
 
 <li> Install the package {CursBioR} (first time)
 

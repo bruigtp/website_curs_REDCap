@@ -157,14 +157,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="how-to-install-materials" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-install-materials">How to install materials</h2>
+<section id="manually" class="level3">
+<h3 class="anchored" data-anchor-id="manually">Manually</h3>
+<p>You can go directly to the Github repository containing all course materials:</p>
+<p><a href="https://github.com/bruigtp/curs_bioestadistica_R">https://github.com/bruigtp/curs_bioestadistica_R</a></p>
+<p>There, you can download the materials in a zip compressed folder.</p>
+</section>
+<section id="using-r" class="level3">
+<h3 class="anchored" data-anchor-id="using-r">Using R</h3>
 <p>To install the materials locally in your computer you have to follow these instructions:</p>
 <ol>
 <li>
-<p>Install the package {pak} (first time)</p>
-<p>If you don’t have this package, you have to install it for the first time:</p>
+<p>Install the packages {pak} and {usethis} (first time)</p>
+<p>If you don’t have these packages, you have to install them for the first time:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"pak"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"pak"</span>, <span class="st">"usethis"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p>To install these packages is necessary to have <a href="https://cran.r-project.org/bin/windows/Rtools/rtools45/rtools.html">Rtools</a> installed in your computer.</p>
 </li><li>
 <p>Install the package {CursBioR} (first time)</p>
 <p>If you don’t have the package, you have to install it for the first time:</p>
@@ -203,6 +212,7 @@ Important
 </ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

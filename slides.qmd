@@ -13,4 +13,7 @@ Slides are published online:
 <li><a href = "https://rpubs.com/bruigtp/1286245"> 02. Statistics Inference</a></li>
 <li><a href = "https://rpubs.com/bruigtp/1289209"> 03. Description and between-group comparisons</a></li>
 <li><a href = "https://rpubs.com/bruigtp/1289766"> 04. ANOVA</a></li>
+<li><a href = "https://rpubs.com/bruigtp/1292256"> 05. GLM</a></li>
+<li><a href = "https://rpubs.com/bruigtp/1292257"> 06. Survival Analysis</a></li>
+
 </ul>

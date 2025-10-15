@@ -2,57 +2,57 @@
   {
     "objectID": "slides.html",
     "href": "slides.html",
-    "title": "Applied Biostatistics Course with R",
+    "title": "Curs de REDCap",
     "section": "",
     "text": "Slides are published online:\n\n\n 01. Introduction to R and Data Management\n\n\n 02. Statistics Inference\n\n\n 03. Description and between-group comparisons\n\n\n 04. ANOVA\n\n\n 05. GLM\n\n\n 06. Survival Analysis"
   },
   {
     "objectID": "slides.html#class-slides",
     "href": "slides.html#class-slides",
-    "title": "Applied Biostatistics Course with R",
+    "title": "Curs de REDCap",
     "section": "",
     "text": "Slides are published online:\n\n\n 01. Introduction to R and Data Management\n\n\n 02. Statistics Inference\n\n\n 03. Description and between-group comparisons\n\n\n 04. ANOVA\n\n\n 05. GLM\n\n\n 06. Survival Analysis"
   },
   {
-    "objectID": "how_to.html",
-    "href": "how_to.html",
-    "title": "Applied Biostatistics Course with R",
-    "section": "",
-    "text": "You can go directly to the Github repository containing all course materials:\nhttps://github.com/bruigtp/curs_bioestadistica_R\nThere, you can download the materials in a zip compressed folder.\n\n\n\nTo install the materials locally in your computer you have to follow these instructions:\n\n\nInstall the packages {pak} and {usethis} (first time)\nIf you don’t have these packages, you have to install them for the first time:\n\ninstall.packages(c(\"pak\", \"usethis\"))\n\nTo install these packages is necessary to have Rtools installed in your computer.\n\nInstall the package {CursBioR} (first time)\nIf you don’t have the package, you have to install it for the first time:\n\npak::pak(\"bruigtp/CursBioR\")\n\n\n\nLoad package and run install_course()\nThis function will save the materials to an existing path on your computer specified by the destdir argument:\n\nlibrary(CursBioR)\n\n#Download materials to your path:\ninstall_course(destdir = \"&lt;YOUR_PATH&gt;\")\n\nRemember that R can’t read Windows backslash in paths (\\). Thus, we have to manually change all the \\ for the / in a path:\n\nIncorrect: C:\\Users\\username\\Documents\\CursBioR\nCorrect: C:/Users/username/Documents/CursBioR\n\n\n\n\n\n\n\nImportant\n\n\n\nThe function downloads the material that has been posted up to that point. For each session, we have to repeat step 3 again to get the new material for the new sessions."
-  },
-  {
-    "objectID": "how_to.html#how-to-install-materials",
-    "href": "how_to.html#how-to-install-materials",
-    "title": "Applied Biostatistics Course with R",
-    "section": "",
-    "text": "You can go directly to the Github repository containing all course materials:\nhttps://github.com/bruigtp/curs_bioestadistica_R\nThere, you can download the materials in a zip compressed folder.\n\n\n\nTo install the materials locally in your computer you have to follow these instructions:\n\n\nInstall the packages {pak} and {usethis} (first time)\nIf you don’t have these packages, you have to install them for the first time:\n\ninstall.packages(c(\"pak\", \"usethis\"))\n\nTo install these packages is necessary to have Rtools installed in your computer.\n\nInstall the package {CursBioR} (first time)\nIf you don’t have the package, you have to install it for the first time:\n\npak::pak(\"bruigtp/CursBioR\")\n\n\n\nLoad package and run install_course()\nThis function will save the materials to an existing path on your computer specified by the destdir argument:\n\nlibrary(CursBioR)\n\n#Download materials to your path:\ninstall_course(destdir = \"&lt;YOUR_PATH&gt;\")\n\nRemember that R can’t read Windows backslash in paths (\\). Thus, we have to manually change all the \\ for the / in a path:\n\nIncorrect: C:\\Users\\username\\Documents\\CursBioR\nCorrect: C:/Users/username/Documents/CursBioR\n\n\n\n\n\n\n\nImportant\n\n\n\nThe function downloads the material that has been posted up to that point. For each session, we have to repeat step 3 again to get the new material for the new sessions."
-  },
-  {
     "objectID": "authors.html",
     "href": "authors.html",
-    "title": "Applied Biostatistics Course with R",
+    "title": "Curs de REDCap",
     "section": "",
     "text": "Biostatistics Support and Research UnitGermans Trias i Pujol Research Institute and Hospital (IGTP) Badalona, Spain"
   },
   {
     "objectID": "authors.html#authors",
     "href": "authors.html#authors",
-    "title": "Applied Biostatistics Course with R",
+    "title": "Curs de REDCap",
     "section": "",
     "text": "Biostatistics Support and Research UnitGermans Trias i Pujol Research Institute and Hospital (IGTP) Badalona, Spain"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Applied Biostatistics Course with R",
+    "title": "Curs de REDCap",
     "section": "",
-    "text": "This course is an introduction to the use of the open-source software R for clinical data analysis. The course covers the theoretical foundations of descriptive statistics, between-group comparisons, hypothesis testing, linear and logistic regression, and survival analysis. These sessions will be combined with more hands-on sessions where students will see real-world examples using R. Students will also learn how to interpret results obtained with R and how to use these results to make decisions.\nIn this website you will find how to install all the materials in your computer using R (Install materials) and access all the class slides that are available online (Slides).\n\n\n Session 1 (19th March): Introduction to R and Data Management\n\nSession 2 (20th March): Inference and Hypothesis Testing\n\nSession 3 (26th March): Description and between-group comparisons\n\nSession 4 (27th March): ANOVA\n\nSession 5 (2nd April): Introduction to Generalized Linear Models\n\nSession 6 (4th April): Introduction to Survival Analysis"
+    "text": "L’objectiu del curs és introduir a l’alumne en els conceptes bàsics, i veure exemples i aplicacions del REDCap en recerca clínica.\nObjectius d’aprenentatge:\n\n\nCapacitar investigadors per al disseny, gestió i desenvolupament de projectes de recerca clínica a través de la plataforma on-line REDCap.\n\n\nFormar els investigadors i el personal de suport tècnic, i oferir-los les eines i referències necessàries per a un aprofundiment i especialització posterior autodidacta.\n\n\nExplicar els protocols de control de qualitat i seguiment de la plataforma REDCap.\n\n\nEn aquesta pàgina web podreu trobar tota la informació sobre el curs així com totes les diapositives de les classes (https://bruigtp.github.io/website_curs_redcap/slides.html)."
   },
   {
-    "objectID": "index.html#applied-biostatistics-course-with-r",
-    "href": "index.html#applied-biostatistics-course-with-r",
-    "title": "Applied Biostatistics Course with R",
+    "objectID": "index.html#curs-de-redcap",
+    "href": "index.html#curs-de-redcap",
+    "title": "Curs de REDCap",
     "section": "",
-    "text": "This course is an introduction to the use of the open-source software R for clinical data analysis. The course covers the theoretical foundations of descriptive statistics, between-group comparisons, hypothesis testing, linear and logistic regression, and survival analysis. These sessions will be combined with more hands-on sessions where students will see real-world examples using R. Students will also learn how to interpret results obtained with R and how to use these results to make decisions.\nIn this website you will find how to install all the materials in your computer using R (Install materials) and access all the class slides that are available online (Slides).\n\n\n Session 1 (19th March): Introduction to R and Data Management\n\nSession 2 (20th March): Inference and Hypothesis Testing\n\nSession 3 (26th March): Description and between-group comparisons\n\nSession 4 (27th March): ANOVA\n\nSession 5 (2nd April): Introduction to Generalized Linear Models\n\nSession 6 (4th April): Introduction to Survival Analysis"
+    "text": "L’objectiu del curs és introduir a l’alumne en els conceptes bàsics, i veure exemples i aplicacions del REDCap en recerca clínica.\nObjectius d’aprenentatge:\n\n\nCapacitar investigadors per al disseny, gestió i desenvolupament de projectes de recerca clínica a través de la plataforma on-line REDCap.\n\n\nFormar els investigadors i el personal de suport tècnic, i oferir-los les eines i referències necessàries per a un aprofundiment i especialització posterior autodidacta.\n\n\nExplicar els protocols de control de qualitat i seguiment de la plataforma REDCap.\n\n\nEn aquesta pàgina web podreu trobar tota la informació sobre el curs així com totes les diapositives de les classes (https://bruigtp.github.io/website_curs_redcap/slides.html)."
+  },
+  {
+    "objectID": "index.html#què-és-el-redcap",
+    "href": "index.html#què-és-el-redcap",
+    "title": "Curs de REDCap",
+    "section": "Què és el REDCap?",
+    "text": "Què és el REDCap?\nREDCap (Research Electronic Data CAPture) és una aplicació web per crear i gestionar enquestes i bases de dades en línia. Va ser desenvolupat el 2004 a la Universitat de Vanderbilt. REDCap disposa d’un conjunt d’eines que permeten als equips de recerca recollir i emmagatzemar dades en línia. Té diverses característiques clau com ara una interfície d’usuari intuïtiva, autenticació d’usuari i seguretat basada en perfils, validació de dades en temps real, emmagatzematge centralitzat de dades, accés de dades compartit, i funcions avançades d’exportació i importació de dades. Va ser dissenyat per gestionar múltiples projectes concurrents sense necessitat de programació personalitzada i és prou flexible per satisfer les diverses necessitats de recollida de dades de projectes en recerca clínica."
+  },
+  {
+    "objectID": "index.html#programa",
+    "href": "index.html#programa",
+    "title": "Curs de REDCap",
+    "section": "Programa",
+    "text": "Programa\n Sessió 1 (28-10-2025): Introducció al REDCap i creació d’un projecte\n\nSessió 2 (30-10-2025): Entrada de dades, gestió d’un projecte REDCap i disseny avançat\n\nSessió 3 (03-11-2025): Gestió d’usuaris, visualització de dades, exportació de dades i importació de dades\n\nSessió 4 (06-11-2025): Creació d’un projecte amb múltiples formularis, configuració mode longitudinal, creació d’esdeveniments i implicacions en les dades"
   }
 ]

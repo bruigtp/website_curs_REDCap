@@ -3,16 +3,14 @@ project:
   output-dir: docs
   
 website:
-  title: "Applied Biostatistics Course with R"
+  title: "Curs de REDCap"
   navbar: 
     left:
-      - text: "Home"
+      - text: "Inici"
         href: index.qmd
-      - text: "Install materials"
-        href: how_to.qmd
-      - text: "Slides"
+      - text: "Diapositives"
         href: slides.qmd
-      - text: "Authors"
+      - text: "Autors"
         href: authors.qmd
       
 format: 

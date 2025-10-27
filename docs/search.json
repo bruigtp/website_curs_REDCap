@@ -4,14 +4,14 @@
     "href": "slides.html",
     "title": "Curs de REDCap",
     "section": "",
-    "text": "Here you can download the class slides:\n\nSession 1"
+    "text": "Aquí pots descarregar-te les diapositives de cada sessió:\n\nSessió 1: Introducció al REDCap i creació d’un projecte"
   },
   {
-    "objectID": "slides.html#class-slides",
-    "href": "slides.html#class-slides",
+    "objectID": "slides.html#diapositives",
+    "href": "slides.html#diapositives",
     "title": "Curs de REDCap",
     "section": "",
-    "text": "Here you can download the class slides:\n\nSession 1"
+    "text": "Aquí pots descarregar-te les diapositives de cada sessió:\n\nSessió 1: Introducció al REDCap i creació d’un projecte"
   },
   {
     "objectID": "authors.html",
@@ -21,8 +21,8 @@
     "text": "Biostatistics Support and Research UnitGermans Trias i Pujol Research Institute and Hospital (IGTP) Badalona, Spain"
   },
   {
-    "objectID": "authors.html#authors",
-    "href": "authors.html#authors",
+    "objectID": "authors.html#autors",
+    "href": "authors.html#autors",
     "title": "Curs de REDCap",
     "section": "",
     "text": "Biostatistics Support and Research UnitGermans Trias i Pujol Research Institute and Hospital (IGTP) Badalona, Spain"
@@ -53,6 +53,6 @@
     "href": "index.html#programa",
     "title": "Curs de REDCap",
     "section": "Programa",
-    "text": "Programa\n Sessió 1 (28-10-2025): Introducció al REDCap i creació d’un projecte\n\nSessió 2 (30-10-2025): Entrada de dades, gestió d’un projecte REDCap i disseny avançat\n\nSessió 3 (03-11-2025): Gestió d’usuaris, visualització de dades, exportació de dades i importació de dades\n\nSessió 4 (06-11-2025): Creació d’un projecte amb múltiples formularis, configuració mode longitudinal, creació d’esdeveniments i implicacions en les dades"
+    "text": "Programa\n Sessió 1: Introducció al REDCap i creació d’un projecte Dimarts 28 d’octubre de 10.00 a 13.00 h (Sala Polivalent, Edifici Mar)\n\nSessió 2 (30-10-2025): Entrada de dades, gestió d’un projecte REDCap i disseny avançat Dijous 30 d’octubre de 10.00 a 13.00 h (Sala Seminari, Edifici Muntanya)\n\nSessió 3 (03-11-2025): Gestió d’usuaris, visualització de dades, exportació de dades i importació de dades Dilluns 3 de Novembre de 10.00 a 13.00 h (Sala Seminari, Edifici Muntanya)\n\nSessió 4 (06-11-2025): Creació d’un projecte amb múltiples formularis, configuració mode longitudinal, creació d’esdeveniments i implicacions en les dades Dijous 6 de Novembre de 10.00 a 13.00 h (Sala Seminari, Edifici Muntanya)\n\nTotes les sessions tindran una pausa de 5-10 minuts."
   }
 ]

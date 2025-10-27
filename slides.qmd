@@ -4,8 +4,8 @@ format:
     toc: false
 ---
 
-## Class Slides
+## Diapositives
 
-Here you can download the class slides:
+Aquí pots descarregar-te les diapositives de cada sessió:
 
-- [Session 1](WWW/Sessio1.pdf){.btn}
+- [Sessió 1: Introducció al REDCap i creació d'un projecte](WWW/Sessio1.pdf){.btn}

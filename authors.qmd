@@ -2,7 +2,7 @@
 format: html
 ---
 
-## Authors
+## Autors
 
 ![](WWW/bru.jpeg){fig-align="center"}
 

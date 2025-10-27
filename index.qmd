@@ -28,13 +28,13 @@ REDCap (<a href = "https://project-redcap.org/">Research Electronic Data CAPture
 **Sessió 1**: Introducció al REDCap i creació d'un projecte<br>
 <i>Dimarts 28 d'octubre de 10.00 a 13.00 h (Sala Polivalent, Edifici Mar)</i>
 <hr>
-**Sessió 2** (30-10-2025): Entrada de dades, gestió d'un projecte REDCap i disseny avançat<br>
+**Sessió 2**: Entrada de dades, gestió d'un projecte REDCap i disseny avançat<br>
 <i>Dijous 30 d'octubre de 10.00 a 13.00 h (Sala Seminari, Edifici Muntanya)</i>
 <hr>
-**Sessió 3** (03-11-2025): Gestió d'usuaris, visualització de dades, exportació de dades i importació de dades<br>
+**Sessió 3**: Gestió d'usuaris, visualització de dades, exportació de dades i importació de dades<br>
 <i>Dilluns 3 de Novembre de 10.00 a 13.00 h (Sala Seminari, Edifici Muntanya)</i>
 <hr>
-**Sessió 4** (06-11-2025): Creació d'un projecte amb múltiples formularis, configuració mode longitudinal, creació d'esdeveniments i implicacions en les dades<br>
+**Sessió 4**: Creació d'un projecte amb múltiples formularis, configuració mode longitudinal, creació d'esdeveniments i implicacions en les dades<br>
 <i>Dijous 6 de Novembre de 10.00 a 13.00 h (Sala Seminari, Edifici Muntanya)</i>
 <hr>
 <i>Totes les sessions tindran una pausa de 5-10 minuts.</i>

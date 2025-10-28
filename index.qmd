@@ -16,7 +16,7 @@ Objectius d'aprenentatge:
 <li> Explicar els protocols de control de qualitat i seguiment de la plataforma REDCap. </li>
 </ul>
 
-En aquesta pàgina web podreu trobar tota la informació sobre el curs així com totes les diapositives de les classes (https://bruigtp.github.io/website_curs_redcap/slides.html).
+En aquesta pàgina web podreu trobar tota la informació sobre el curs així com totes les diapositives de les classes: [Diapositives](https://bruigtp.github.io/website_curs_REDCap/slides.html).
 
 ## Què és el REDCap?
 

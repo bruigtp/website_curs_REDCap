@@ -8,4 +8,16 @@ format:
 
 Aquí pots descarregar-te les diapositives de cada sessió:
 
-- [Sessió 1: Introducció al REDCap i creació d'un projecte](WWW/Sessio1.pdf){.btn}
+- [Sessió 1](WWW/Sessio1.pdf){.btn}
+
+- [Sessió 2](WWW/Sessio2.pdf){.btn}
+
+- [Sessió 3](WWW/Sessio3.pdf){.btn}
+
+- [Sessió 4](WWW/Sessio4.pdf){.btn}
+
+## Exercici
+
+També podeu descarregar l'exercici del curs:
+
+- [Exercici: Crea un projecte al REDCap a partir d'un CRD](WWW/Exercici.pdf){.btn}

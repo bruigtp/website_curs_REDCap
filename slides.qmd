@@ -16,8 +16,20 @@ Aquí pots descarregar-te les diapositives de cada sessió:
 
 - [Sessió 4](WWW/Sessio4.pdf){.btn}
 
+## Solucions
+
+Aquí pots descarregar-te les solucions dels exercicis que es troben a les diapositives de cada sessió:
+
+<ul>
+
+<li><a href="WWW/SolutionSessio1_2025-10-29_0838.REDCap.xml" download="SolutionSessio1_2025-10-29_0838.REDCap.xml">Solució Sessió 1</a></li>
+
+</ul>
+
+<i>Cal carregar l'arxiu 'XML' al REDCap per a poder crear el projecte que conté la solució.</i>
+
 ## Exercici
 
-També podeu descarregar l'exercici del curs:
+També podeu descarregar l'exercici del curs en el que s'ha de crear un projecte REDCap a partir d'un Quadern de Recollida de Dades (QRD):
 
-- [Exercici: Crea un projecte al REDCap a partir d'un CRD](WWW/Exercici.pdf){.btn}
+- [Exercici](WWW/Exercici.pdf){.btn}

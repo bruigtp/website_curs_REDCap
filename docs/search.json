@@ -14,11 +14,18 @@
     "text": "Aquí pots descarregar-te les diapositives de cada sessió:\n\nSessió 1\nSessió 2\nSessió 3\nSessió 4"
   },
   {
+    "objectID": "slides.html#solucions",
+    "href": "slides.html#solucions",
+    "title": "Curs de REDCap",
+    "section": "Solucions",
+    "text": "Solucions\nAquí pots descarregar-te les solucions dels exercicis que es troben a les diapositives de cada sessió:\n\n\nSolució Sessió 1\n\n\nCal carregar l’arxiu ‘XML’ al REDCap per a poder crear el projecte que conté la solució."
+  },
+  {
     "objectID": "slides.html#exercici",
     "href": "slides.html#exercici",
     "title": "Curs de REDCap",
     "section": "Exercici",
-    "text": "Exercici\nTambé podeu descarregar l’exercici del curs:\n\nExercici: Crea un projecte al REDCap a partir d’un CRD"
+    "text": "Exercici\nTambé podeu descarregar l’exercici del curs en el que s’ha de crear un projecte REDCap a partir d’un Quadern de Recollida de Dades (QRD):\n\nExercici"
   },
   {
     "objectID": "authors.html",

@@ -24,7 +24,7 @@ Aquí pots descarregar-te les solucions dels exercicis que es troben a les diapo
 
 <li><a href="WWW/SolutionSessio1_2025-10-29_0838.REDCap.xml" download="SolutionSessio1_2025-10-29_0838.REDCap.xml">Solució Sessió 1</a></li>
 
-<li><a href="WWW/SolutionSessio2_CDISC_ODM_2025-10-30_1603.xml" download="SolutionSessio2_CDISC_ODM_2025-10-30_1603.xml">Solució Sessió 2</a></li>
+<li><a href="WWW/SolutionSessio2_2025-10-30_1620.REDCap.xml" download="SolutionSessio2_2025-10-30_1620.REDCap.xml">Solució Sessió 2</a></li>
 
 </ul>
 

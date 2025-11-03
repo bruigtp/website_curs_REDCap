@@ -30,7 +30,7 @@ Aquí pots descarregar-te les solucions dels exercicis que es troben a les diapo
 
 <i>Cal carregar l'arxiu 'XML' al REDCap per a poder crear el projecte que conté la solució.</i>
 
-## Exercici
+## Exercicis
 
 També podeu descarregar els exercicis del curs:
 

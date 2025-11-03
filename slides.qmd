@@ -32,6 +32,8 @@ Aquí pots descarregar-te les solucions dels exercicis que es troben a les diapo
 
 ## Exercici
 
-També podeu descarregar l'exercici del curs en el que s'ha de crear un projecte REDCap a partir d'un Quadern de Recollida de Dades (QRD):
+També podeu descarregar els exercicis del curs:
 
-- [Exercici](WWW/Exercici.pdf){.btn}
+- [Exercici QRD](WWW/Exercici_QRD.pdf){.btn}
+
+- [Exercici DAGs](WWW/Exercici_DAG.pdf){.btn}

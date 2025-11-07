@@ -28,6 +28,8 @@ Aquí pots descarregar-te les solucions dels exercicis que es troben a les diapo
 
 <li><a href="WWW/SolutionSessio3_2025-11-04_0922.REDCap.xml" download="SolutionSessio3_2025-11-04_0922.REDCap.xml">Solució Sessió 3</a></li>
 
+<li><a href="WWW/SolutionSessio4_2025-11-07_0828.REDCap.xml" download="SolutionSessio4_2025-11-07_0828.REDCap.xml">Solució Sessió 4</a></li>
+
 </ul>
 
 <i>Cal carregar l'arxiu 'XML' al REDCap per a poder crear el projecte que conté la solució.</i>
@@ -39,3 +41,10 @@ També podeu descarregar els exercicis del curs:
 - [Exercici QRD](WWW/Exercici_QRD.pdf){.btn}
 
 - [Exercici DAGs](WWW/Exercici_DAG.pdf){.btn}
+
+Solució de l'exercici QRD del curs:
+
+<ul>
+<li><a href="WWW/CourseExerciseSoluti_CDISC_ODM_2025-11-06_1413.xml" download="CourseExerciseSoluti_CDISC_ODM_2025-11-06_1413.xml">Solució Exercici QRD</a></li>
+</ul>
+

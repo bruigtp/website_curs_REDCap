@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="Course_Exercise_Solution" AsOfDateTime="2025-11-06T14:13:39" CreationDateTime="2025-11-06T14:13:39" SourceSystem="REDCap" SourceSystemVersion="14.5.42">
+<ClinicalData StudyOID="Project.CourseExerciseSolution" MetaDataVersionOID="Metadata.CourseExerciseSolution_2025-11-06_1413">
+	<SubjectData SubjectKey="1" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.demographics" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="demographics.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="1"/>
+					<ItemData ItemOID="date_visit" Value="2025-11-03"/>
+					<ItemData ItemOID="date_birth" Value="1940-11-19"/>
+					<ItemData ItemOID="age" Value="84"/>
+					<ItemData ItemOID="sex" Value="0"/>
+					<ItemData ItemOID="race" Value="White"/>
+					<ItemData ItemOID="level_education" Value="5"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="demographics.demographics_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="demographics_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.clinical" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="clinical.mi" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="mi" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="clinical.chf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="chf" Value="0"/>
+					<ItemData ItemOID="pvd" Value="1"/>
+					<ItemData ItemOID="cva_tia" Value="1"/>
+					<ItemData ItemOID="dementia" Value="0"/>
+					<ItemData ItemOID="cpd" Value="1"/>
+					<ItemData ItemOID="ctd" Value="0"/>
+					<ItemData ItemOID="pud" Value="1"/>
+					<ItemData ItemOID="liver_disease" Value="1"/>
+					<ItemData ItemOID="dm" Value="0"/>
+					<ItemData ItemOID="hemiplegia" Value="0"/>
+					<ItemData ItemOID="ckd" Value="2"/>
+					<ItemData ItemOID="leukemia" Value="0"/>
+					<ItemData ItemOID="lymphoma" Value="0"/>
+					<ItemData ItemOID="solid_tumor" Value="0"/>
+					<ItemData ItemOID="aids" Value="0"/>
+					<ItemData ItemOID="cci" Value="11"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="clinical.temp" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="temp" Value="27"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="clinical.heart_rate" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="heart_rate" Value="100"/>
+					<ItemData ItemOID="blood_pressure" Value="100"/>
+					<ItemData ItemOID="medication___0" Value="0"/>
+					<ItemData ItemOID="medication___1" Value="0"/>
+					<ItemData ItemOID="medication___2" Value="1"/>
+					<ItemData ItemOID="medication___3" Value="1"/>
+					<ItemData ItemOID="medication___4" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="clinical.clinical_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="clinical_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.lifestyle" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="lifestyle.physical_activity" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="physical_activity" Value="1"/>
+					<ItemData ItemOID="tobacco" Value="0"/>
+					<ItemData ItemOID="tobacco_packs" Value=""/>
+					<ItemData ItemOID="alcohol" Value="1"/>
+					<ItemData ItemOID="alcohol_units" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="lifestyle.lifestyle_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="lifestyle_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.quality_of_life" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="quality_of_life.mobility" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="mobility" Value="1"/>
+					<ItemData ItemOID="self_care" Value="1"/>
+					<ItemData ItemOID="usual_activities" Value="1"/>
+					<ItemData ItemOID="pain_discomfort" Value="2"/>
+					<ItemData ItemOID="anxiety_depression" Value="2"/>
+					<ItemData ItemOID="health_today" Value="80"/>
+					<ItemData ItemOID="level_pain_discomfort" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="quality_of_life.quality_of_life_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="quality_of_life_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.visit_day_7_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="visit_day_7_arm_1">
+			<FormData FormOID="Form.treatment_outcomes" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="treatment_outcomes.treat_effectiveness" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="treat_effectiveness" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="treatment_outcomes.treatment_outcomes_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="treatment_outcomes_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.visit_day_14_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="visit_day_14_arm_1">
+			<FormData FormOID="Form.treatment_outcomes" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="treatment_outcomes.treat_effectiveness" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="treat_effectiveness" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="treatment_outcomes.treatment_outcomes_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="treatment_outcomes_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.visit_day_30_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="visit_day_30_arm_1">
+			<FormData FormOID="Form.treatment_outcomes" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="treatment_outcomes.treat_effectiveness" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="treat_effectiveness" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="treatment_outcomes.treatment_outcomes_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="treatment_outcomes_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.visit_day_14_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="visit_day_14_arm_1">
+			<FormData FormOID="Form.side_effects" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="side_effects.description" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="description" Value="headache"/>
+					<ItemData ItemOID="date_start" Value="2025-11-05"/>
+					<ItemData ItemOID="date_end" Value="2025-11-06"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="side_effects.side_effects_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="side_effects_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.side_effects" FormRepeatKey="2">
+				<ItemGroupData ItemGroupOID="side_effects.description" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="description" Value="dizzyness"/>
+					<ItemData ItemOID="date_start" Value="2025-11-05"/>
+					<ItemData ItemOID="date_end" Value="2025-11-06"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="side_effects.side_effects_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="side_effects_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+</ClinicalData>
+</ODM>

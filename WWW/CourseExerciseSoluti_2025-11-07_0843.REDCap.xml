@@ -1,0 +1,752 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="Course_Exercise_Solution" AsOfDateTime="2025-11-06T20:20:24" CreationDateTime="2025-11-06T20:20:24" SourceSystem="REDCap" SourceSystemVersion="14.5.42">
+<Study OID="Project.CourseExerciseSolution">
+<GlobalVariables>
+	<StudyName>Course_Exercise_Solution</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "Course_Exercise_Solution".</StudyDescription>
+	<ProtocolName>Course_Exercise_Solution</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel></redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SecondaryUniqueFieldDisplayValue>1</redcap:SecondaryUniqueFieldDisplayValue>
+	<redcap:SecondaryUniqueFieldDisplayLabel>1</redcap:SecondaryUniqueFieldDisplayLabel>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:SurveysEnabled>0</redcap:SurveysEnabled>
+	<redcap:SurveyInvitationEmailField></redcap:SurveyInvitationEmailField>
+	<redcap:DisplayTodayNowButton>1</redcap:DisplayTodayNowButton>
+	<redcap:PreventBranchingEraseValues>0</redcap:PreventBranchingEraseValues>
+	<redcap:RequireChangeReason>0</redcap:RequireChangeReason>
+	<redcap:DataHistoryPopup>1</redcap:DataHistoryPopup>
+	<redcap:OrderRecordsByField></redcap:OrderRecordsByField>
+	<redcap:MyCapEnabled>0</redcap:MyCapEnabled>
+	<redcap:Purpose>0</redcap:Purpose>
+	<redcap:PurposeOther></redcap:PurposeOther>
+	<redcap:ProjectNotes></redcap:ProjectNotes>
+	<redcap:MissingDataCodes></redcap:MissingDataCodes>
+	<redcap:ProtectedEmailMode>0</redcap:ProtectedEmailMode>
+	<redcap:ProtectedEmailModeCustomText></redcap:ProtectedEmailModeCustomText>
+	<redcap:ProtectedEmailModeTrigger>ALL</redcap:ProtectedEmailModeTrigger>
+	<redcap:ProtectedEmailModeLogo></redcap:ProtectedEmailModeLogo>
+	<redcap:RepeatingInstrumentsAndEvents>
+		<redcap:RepeatingInstruments>
+			<redcap:RepeatingInstrument redcap:UniqueEventName="visit_day_7_arm_1" redcap:RepeatInstrument="side_effects" redcap:CustomLabel="[description] ([date_start])"/>
+		</redcap:RepeatingInstruments>
+		<redcap:RepeatingInstruments>
+			<redcap:RepeatingInstrument redcap:UniqueEventName="visit_day_14_arm_1" redcap:RepeatInstrument="side_effects" redcap:CustomLabel="[description] ([date_start])"/>
+		</redcap:RepeatingInstruments>
+		<redcap:RepeatingInstruments>
+			<redcap:RepeatingInstrument redcap:UniqueEventName="visit_day_30_arm_1" redcap:RepeatInstrument="side_effects" redcap:CustomLabel="[description] ([date_start])"/>
+		</redcap:RepeatingInstruments>
+	</redcap:RepeatingInstrumentsAndEvents>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.CourseExerciseSolution_2025-11-06_2020" Name="Course_Exercise_Solution" redcap:RecordIdField="record_id">
+	<Protocol>
+		<StudyEventRef StudyEventOID="Event.baseline_arm_1" OrderNumber="1" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.visit_day_7_arm_1" OrderNumber="2" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.visit_day_14_arm_1" OrderNumber="3" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.visit_day_30_arm_1" OrderNumber="4" Mandatory="No"/>
+	</Protocol>
+	<StudyEventDef OID="Event.baseline_arm_1" Name="Baseline" Type="Common" Repeating="No" redcap:EventName="Baseline" redcap:CustomEventLabel="" redcap:UniqueEventName="baseline_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="1" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.demographics" OrderNumber="1" Mandatory="No" redcap:FormName="demographics"/>
+		<FormRef FormOID="Form.clinical" OrderNumber="2" Mandatory="No" redcap:FormName="clinical"/>
+		<FormRef FormOID="Form.lifestyle" OrderNumber="3" Mandatory="No" redcap:FormName="lifestyle"/>
+		<FormRef FormOID="Form.quality_of_life" OrderNumber="4" Mandatory="No" redcap:FormName="quality_of_life"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.visit_day_7_arm_1" Name="Visit day 7" Type="Common" Repeating="No" redcap:EventName="Visit day 7" redcap:CustomEventLabel="" redcap:UniqueEventName="visit_day_7_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="2" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.treatment_outcomes" OrderNumber="1" Mandatory="No" redcap:FormName="treatment_outcomes"/>
+		<FormRef FormOID="Form.side_effects" OrderNumber="2" Mandatory="No" redcap:FormName="side_effects"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.visit_day_14_arm_1" Name="Visit day 14" Type="Common" Repeating="No" redcap:EventName="Visit day 14" redcap:CustomEventLabel="" redcap:UniqueEventName="visit_day_14_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="3" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.treatment_outcomes" OrderNumber="1" Mandatory="No" redcap:FormName="treatment_outcomes"/>
+		<FormRef FormOID="Form.side_effects" OrderNumber="2" Mandatory="No" redcap:FormName="side_effects"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.visit_day_30_arm_1" Name="Visit day 30" Type="Common" Repeating="No" redcap:EventName="Visit day 30" redcap:CustomEventLabel="" redcap:UniqueEventName="visit_day_30_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="4" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.treatment_outcomes" OrderNumber="1" Mandatory="No" redcap:FormName="treatment_outcomes"/>
+		<FormRef FormOID="Form.side_effects" OrderNumber="2" Mandatory="No" redcap:FormName="side_effects"/>
+	</StudyEventDef>
+	<FormDef OID="Form.demographics" Name="Demographics" Repeating="No" redcap:FormName="demographics">
+		<ItemGroupRef ItemGroupOID="demographics.record_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="demographics.demographics_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.clinical" Name="Clinical" Repeating="No" redcap:FormName="clinical">
+		<ItemGroupRef ItemGroupOID="clinical.mi" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="clinical.chf" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="clinical.temp" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="clinical.heart_rate" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="clinical.clinical_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.lifestyle" Name="Lifestyle" Repeating="No" redcap:FormName="lifestyle">
+		<ItemGroupRef ItemGroupOID="lifestyle.physical_activity" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="lifestyle.lifestyle_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.quality_of_life" Name="Quality of life" Repeating="No" redcap:FormName="quality_of_life">
+		<ItemGroupRef ItemGroupOID="quality_of_life.mobility" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="quality_of_life.quality_of_life_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.treatment_outcomes" Name="Treatment outcomes" Repeating="No" redcap:FormName="treatment_outcomes">
+		<ItemGroupRef ItemGroupOID="treatment_outcomes.treat_effectiveness" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="treatment_outcomes.treatment_outcomes_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.side_effects" Name="Side effects" Repeating="No" redcap:FormName="side_effects">
+		<ItemGroupRef ItemGroupOID="side_effects.description" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="side_effects.side_effects_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="demographics.record_id" Name="Demographics" Repeating="No">
+		<ItemRef ItemOID="record_id" Mandatory="No" redcap:Variable="record_id"/>
+		<ItemRef ItemOID="date_visit" Mandatory="No" redcap:Variable="date_visit"/>
+		<ItemRef ItemOID="date_birth" Mandatory="No" redcap:Variable="date_birth"/>
+		<ItemRef ItemOID="age" Mandatory="No" redcap:Variable="age"/>
+		<ItemRef ItemOID="sex" Mandatory="No" redcap:Variable="sex"/>
+		<ItemRef ItemOID="race" Mandatory="No" redcap:Variable="race"/>
+		<ItemRef ItemOID="level_education" Mandatory="No" redcap:Variable="level_education"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="demographics.demographics_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="demographics_complete" Mandatory="No" redcap:Variable="demographics_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="clinical.mi" Name="Charlson Comorbidity Index Calculation" Repeating="No">
+		<ItemRef ItemOID="mi" Mandatory="No" redcap:Variable="mi"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="clinical.chf" Name="Clinical" Repeating="No">
+		<ItemRef ItemOID="chf" Mandatory="No" redcap:Variable="chf"/>
+		<ItemRef ItemOID="pvd" Mandatory="No" redcap:Variable="pvd"/>
+		<ItemRef ItemOID="cva_tia" Mandatory="No" redcap:Variable="cva_tia"/>
+		<ItemRef ItemOID="dementia" Mandatory="No" redcap:Variable="dementia"/>
+		<ItemRef ItemOID="cpd" Mandatory="No" redcap:Variable="cpd"/>
+		<ItemRef ItemOID="ctd" Mandatory="No" redcap:Variable="ctd"/>
+		<ItemRef ItemOID="pud" Mandatory="No" redcap:Variable="pud"/>
+		<ItemRef ItemOID="liver_disease" Mandatory="No" redcap:Variable="liver_disease"/>
+		<ItemRef ItemOID="dm" Mandatory="No" redcap:Variable="dm"/>
+		<ItemRef ItemOID="hemiplegia" Mandatory="No" redcap:Variable="hemiplegia"/>
+		<ItemRef ItemOID="ckd" Mandatory="No" redcap:Variable="ckd"/>
+		<ItemRef ItemOID="leukemia" Mandatory="No" redcap:Variable="leukemia"/>
+		<ItemRef ItemOID="lymphoma" Mandatory="No" redcap:Variable="lymphoma"/>
+		<ItemRef ItemOID="solid_tumor" Mandatory="No" redcap:Variable="solid_tumor"/>
+		<ItemRef ItemOID="aids" Mandatory="No" redcap:Variable="aids"/>
+		<ItemRef ItemOID="cci" Mandatory="No" redcap:Variable="cci"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="clinical.temp" Name="Health Indicators" Repeating="No">
+		<ItemRef ItemOID="temp" Mandatory="No" redcap:Variable="temp"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="clinical.heart_rate" Name="Clinical" Repeating="No">
+		<ItemRef ItemOID="heart_rate" Mandatory="No" redcap:Variable="heart_rate"/>
+		<ItemRef ItemOID="blood_pressure" Mandatory="No" redcap:Variable="blood_pressure"/>
+		<ItemRef ItemOID="medication___0" Mandatory="No" redcap:Variable="medication"/>
+		<ItemRef ItemOID="medication___1" Mandatory="No" redcap:Variable="medication"/>
+		<ItemRef ItemOID="medication___2" Mandatory="No" redcap:Variable="medication"/>
+		<ItemRef ItemOID="medication___3" Mandatory="No" redcap:Variable="medication"/>
+		<ItemRef ItemOID="medication___4" Mandatory="No" redcap:Variable="medication"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="clinical.clinical_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="clinical_complete" Mandatory="No" redcap:Variable="clinical_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="lifestyle.physical_activity" Name="Lifestyle" Repeating="No">
+		<ItemRef ItemOID="physical_activity" Mandatory="No" redcap:Variable="physical_activity"/>
+		<ItemRef ItemOID="tobacco" Mandatory="No" redcap:Variable="tobacco"/>
+		<ItemRef ItemOID="tobacco_packs" Mandatory="No" redcap:Variable="tobacco_packs"/>
+		<ItemRef ItemOID="alcohol" Mandatory="No" redcap:Variable="alcohol"/>
+		<ItemRef ItemOID="alcohol_units" Mandatory="No" redcap:Variable="alcohol_units"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="lifestyle.lifestyle_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="lifestyle_complete" Mandatory="No" redcap:Variable="lifestyle_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="quality_of_life.mobility" Name="Quality of life" Repeating="No">
+		<ItemRef ItemOID="mobility" Mandatory="No" redcap:Variable="mobility"/>
+		<ItemRef ItemOID="self_care" Mandatory="No" redcap:Variable="self_care"/>
+		<ItemRef ItemOID="usual_activities" Mandatory="No" redcap:Variable="usual_activities"/>
+		<ItemRef ItemOID="pain_discomfort" Mandatory="No" redcap:Variable="pain_discomfort"/>
+		<ItemRef ItemOID="anxiety_depression" Mandatory="No" redcap:Variable="anxiety_depression"/>
+		<ItemRef ItemOID="health_today" Mandatory="No" redcap:Variable="health_today"/>
+		<ItemRef ItemOID="level_pain_discomfort" Mandatory="No" redcap:Variable="level_pain_discomfort"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="quality_of_life.quality_of_life_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="quality_of_life_complete" Mandatory="No" redcap:Variable="quality_of_life_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="treatment_outcomes.treat_effectiveness" Name="Treatment outcomes" Repeating="No">
+		<ItemRef ItemOID="treat_effectiveness" Mandatory="No" redcap:Variable="treat_effectiveness"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="treatment_outcomes.treatment_outcomes_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="treatment_outcomes_complete" Mandatory="No" redcap:Variable="treatment_outcomes_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="side_effects.description" Name="Side effects" Repeating="No">
+		<ItemRef ItemOID="description" Mandatory="No" redcap:Variable="description"/>
+		<ItemRef ItemOID="date_start" Mandatory="No" redcap:Variable="date_start"/>
+		<ItemRef ItemOID="date_end" Mandatory="No" redcap:Variable="date_end"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="side_effects.side_effects_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="side_effects_complete" Mandatory="No" redcap:Variable="side_effects_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="record_id" Name="record_id" DataType="text" Length="999" redcap:Variable="record_id" redcap:FieldType="text">
+		<Question><TranslatedText>Record ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="date_visit" Name="date_visit" DataType="date" Length="999" redcap:Variable="date_visit" redcap:FieldType="text" redcap:TextValidationType="date_dmy">
+		<Question><TranslatedText>Date of visit</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="date_birth" Name="date_birth" DataType="date" Length="999" redcap:Variable="date_birth" redcap:FieldType="text" redcap:TextValidationType="date_dmy">
+		<Question><TranslatedText>Date of birth</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="age" Name="age" DataType="float" Length="999" redcap:Variable="age" redcap:FieldType="calc" redcap:Calculation="rounddown(datediff([date_visit], [date_birth], &quot;y&quot;))">
+		<Question><TranslatedText>Age</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="sex" Name="sex" DataType="text" Length="1" redcap:Variable="sex" redcap:FieldType="radio">
+		<Question><TranslatedText>Sex</TranslatedText></Question>
+		<CodeListRef CodeListOID="sex.choices"/>
+	</ItemDef>
+	<ItemDef OID="race" Name="race" DataType="text" Length="999" redcap:Variable="race" redcap:FieldType="text">
+		<Question><TranslatedText>Race/ethnicity</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="level_education" Name="level_education" DataType="text" Length="1" redcap:Variable="level_education" redcap:FieldType="select">
+		<Question><TranslatedText>Educational level</TranslatedText></Question>
+		<CodeListRef CodeListOID="level_education.choices"/>
+	</ItemDef>
+	<ItemDef OID="demographics_complete" Name="demographics_complete" DataType="text" Length="1" redcap:Variable="demographics_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="demographics_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="mi" Name="mi" DataType="text" Length="1" redcap:Variable="mi" redcap:FieldType="radio" redcap:SectionHeader="Charlson Comorbidity Index Calculation" redcap:MatrixGroupName="charlson_noyes">
+		<Question><TranslatedText>Miocardial infraction</TranslatedText></Question>
+		<CodeListRef CodeListOID="mi.choices"/>
+	</ItemDef>
+	<ItemDef OID="chf" Name="chf" DataType="text" Length="1" redcap:Variable="chf" redcap:FieldType="radio" redcap:MatrixGroupName="charlson_noyes">
+		<Question><TranslatedText>Congestive heart failure</TranslatedText></Question>
+		<CodeListRef CodeListOID="chf.choices"/>
+	</ItemDef>
+	<ItemDef OID="pvd" Name="pvd" DataType="text" Length="1" redcap:Variable="pvd" redcap:FieldType="radio" redcap:MatrixGroupName="charlson_noyes">
+		<Question><TranslatedText>Peripheral vascular disease</TranslatedText></Question>
+		<CodeListRef CodeListOID="pvd.choices"/>
+	</ItemDef>
+	<ItemDef OID="cva_tia" Name="cva_tia" DataType="text" Length="1" redcap:Variable="cva_tia" redcap:FieldType="radio" redcap:MatrixGroupName="charlson_noyes">
+		<Question><TranslatedText>CVA or TIA</TranslatedText></Question>
+		<CodeListRef CodeListOID="cva_tia.choices"/>
+	</ItemDef>
+	<ItemDef OID="dementia" Name="dementia" DataType="text" Length="1" redcap:Variable="dementia" redcap:FieldType="radio" redcap:MatrixGroupName="charlson_noyes">
+		<Question><TranslatedText>Dementia</TranslatedText></Question>
+		<CodeListRef CodeListOID="dementia.choices"/>
+	</ItemDef>
+	<ItemDef OID="cpd" Name="cpd" DataType="text" Length="1" redcap:Variable="cpd" redcap:FieldType="radio" redcap:MatrixGroupName="charlson_noyes">
+		<Question><TranslatedText>Chronic pulmonary disease</TranslatedText></Question>
+		<CodeListRef CodeListOID="cpd.choices"/>
+	</ItemDef>
+	<ItemDef OID="ctd" Name="ctd" DataType="text" Length="1" redcap:Variable="ctd" redcap:FieldType="radio" redcap:MatrixGroupName="charlson_noyes">
+		<Question><TranslatedText>Connective tissue disease</TranslatedText></Question>
+		<CodeListRef CodeListOID="ctd.choices"/>
+	</ItemDef>
+	<ItemDef OID="pud" Name="pud" DataType="text" Length="1" redcap:Variable="pud" redcap:FieldType="radio" redcap:MatrixGroupName="charlson_noyes">
+		<Question><TranslatedText>Peptic ulcer disease</TranslatedText></Question>
+		<CodeListRef CodeListOID="pud.choices"/>
+	</ItemDef>
+	<ItemDef OID="liver_disease" Name="liver_disease" DataType="text" Length="1" redcap:Variable="liver_disease" redcap:FieldType="radio">
+		<Question><TranslatedText>Liver disease</TranslatedText></Question>
+		<CodeListRef CodeListOID="liver_disease.choices"/>
+	</ItemDef>
+	<ItemDef OID="dm" Name="dm" DataType="text" Length="1" redcap:Variable="dm" redcap:FieldType="radio">
+		<Question><TranslatedText>Diabetes mellitus</TranslatedText></Question>
+		<CodeListRef CodeListOID="dm.choices"/>
+	</ItemDef>
+	<ItemDef OID="hemiplegia" Name="hemiplegia" DataType="text" Length="1" redcap:Variable="hemiplegia" redcap:FieldType="radio" redcap:MatrixGroupName="charlson_noyes2">
+		<Question><TranslatedText>Hemiplegia</TranslatedText></Question>
+		<CodeListRef CodeListOID="hemiplegia.choices"/>
+	</ItemDef>
+	<ItemDef OID="ckd" Name="ckd" DataType="text" Length="1" redcap:Variable="ckd" redcap:FieldType="radio" redcap:MatrixGroupName="charlson_noyes2">
+		<Question><TranslatedText>Moderate to severe chronic kidney disease</TranslatedText></Question>
+		<CodeListRef CodeListOID="ckd.choices"/>
+	</ItemDef>
+	<ItemDef OID="leukemia" Name="leukemia" DataType="text" Length="1" redcap:Variable="leukemia" redcap:FieldType="radio" redcap:MatrixGroupName="charlson_noyes2">
+		<Question><TranslatedText>Leukemia</TranslatedText></Question>
+		<CodeListRef CodeListOID="leukemia.choices"/>
+	</ItemDef>
+	<ItemDef OID="lymphoma" Name="lymphoma" DataType="text" Length="1" redcap:Variable="lymphoma" redcap:FieldType="radio" redcap:MatrixGroupName="charlson_noyes2">
+		<Question><TranslatedText>Lymphoma</TranslatedText></Question>
+		<CodeListRef CodeListOID="lymphoma.choices"/>
+	</ItemDef>
+	<ItemDef OID="solid_tumor" Name="solid_tumor" DataType="text" Length="1" redcap:Variable="solid_tumor" redcap:FieldType="radio">
+		<Question><TranslatedText>Solid tumor</TranslatedText></Question>
+		<CodeListRef CodeListOID="solid_tumor.choices"/>
+	</ItemDef>
+	<ItemDef OID="aids" Name="aids" DataType="text" Length="1" redcap:Variable="aids" redcap:FieldType="radio">
+		<Question><TranslatedText>AIDS</TranslatedText></Question>
+		<CodeListRef CodeListOID="aids.choices"/>
+	</ItemDef>
+	<ItemDef OID="cci" Name="cci" DataType="float" Length="999" redcap:Variable="cci" redcap:FieldType="calc" redcap:Calculation="if([age]&lt; 50,0,
+    if([age]&lt; 60,1,
+        if([age]&lt; 70,2,
+            if([age]&lt; 80,3,4)))) +
+            [mi] + [chf] + [pvd] + [cva_tia] + [dementia] + [cpd] + [ctd] + [pud] + [liver_disease] + [dm] + [hemiplegia] + [ckd] + [solid_tumor] + [leukemia] + [lymphoma] + [aids]">
+		<Question><TranslatedText>Charlson Comorbidity Index</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="temp" Name="temp" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="temp" redcap:FieldType="text" redcap:TextValidationType="float" redcap:FieldNote="ºC" redcap:SectionHeader="Health Indicators">
+		<Question><TranslatedText>Temperature</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>0</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (0 - 100). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>100</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (0 - 100). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="heart_rate" Name="heart_rate" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="heart_rate" redcap:FieldType="text" redcap:TextValidationType="float" redcap:FieldNote="bpm">
+		<Question><TranslatedText>Heart rate</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>0</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (0 - 1000). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>1000</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (0 - 1000). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="blood_pressure" Name="blood_pressure" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="blood_pressure" redcap:FieldType="text" redcap:TextValidationType="float" redcap:FieldNote="mmHg">
+		<Question><TranslatedText>Blood pressure</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>0</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (0 - 1000). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>1000</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (0 - 1000). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="medication___0" Name="medication___0" DataType="boolean" Length="1" redcap:Variable="medication" redcap:FieldType="checkbox">
+		<Question><TranslatedText>Prescribed medication</TranslatedText></Question>
+		<CodeListRef CodeListOID="medication___0.choices"/>
+	</ItemDef>
+	<ItemDef OID="medication___1" Name="medication___1" DataType="boolean" Length="1" redcap:Variable="medication" redcap:FieldType="checkbox">
+		<Question><TranslatedText>Prescribed medication</TranslatedText></Question>
+		<CodeListRef CodeListOID="medication___1.choices"/>
+	</ItemDef>
+	<ItemDef OID="medication___2" Name="medication___2" DataType="boolean" Length="1" redcap:Variable="medication" redcap:FieldType="checkbox">
+		<Question><TranslatedText>Prescribed medication</TranslatedText></Question>
+		<CodeListRef CodeListOID="medication___2.choices"/>
+	</ItemDef>
+	<ItemDef OID="medication___3" Name="medication___3" DataType="boolean" Length="1" redcap:Variable="medication" redcap:FieldType="checkbox">
+		<Question><TranslatedText>Prescribed medication</TranslatedText></Question>
+		<CodeListRef CodeListOID="medication___3.choices"/>
+	</ItemDef>
+	<ItemDef OID="medication___4" Name="medication___4" DataType="boolean" Length="1" redcap:Variable="medication" redcap:FieldType="checkbox">
+		<Question><TranslatedText>Prescribed medication</TranslatedText></Question>
+		<CodeListRef CodeListOID="medication___4.choices"/>
+	</ItemDef>
+	<ItemDef OID="clinical_complete" Name="clinical_complete" DataType="text" Length="1" redcap:Variable="clinical_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="clinical_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="physical_activity" Name="physical_activity" DataType="text" Length="1" redcap:Variable="physical_activity" redcap:FieldType="select">
+		<Question><TranslatedText>Level of physical activity</TranslatedText></Question>
+		<CodeListRef CodeListOID="physical_activity.choices"/>
+	</ItemDef>
+	<ItemDef OID="tobacco" Name="tobacco" DataType="text" Length="1" redcap:Variable="tobacco" redcap:FieldType="radio">
+		<Question><TranslatedText>Tobacco use</TranslatedText></Question>
+		<CodeListRef CodeListOID="tobacco.choices"/>
+	</ItemDef>
+	<ItemDef OID="tobacco_packs" Name="tobacco_packs" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="tobacco_packs" redcap:FieldType="text" redcap:TextValidationType="float" redcap:BranchingLogic="[tobacco] = &#039;1&#039;">
+		<Question><TranslatedText>Packs per day</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>0</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (0 - no limit). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="alcohol" Name="alcohol" DataType="text" Length="1" redcap:Variable="alcohol" redcap:FieldType="radio">
+		<Question><TranslatedText>Alcohol consumption</TranslatedText></Question>
+		<CodeListRef CodeListOID="alcohol.choices"/>
+	</ItemDef>
+	<ItemDef OID="alcohol_units" Name="alcohol_units" DataType="float" Length="999" SignificantDigits="1" redcap:Variable="alcohol_units" redcap:FieldType="text" redcap:TextValidationType="float" redcap:BranchingLogic="[alcohol] = &#039;1&#039;">
+		<Question><TranslatedText>Daily standard drink units</TranslatedText></Question>
+		<RangeCheck Comparator="GE" SoftHard="Soft">
+			<CheckValue>0</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (0 - no limit). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="lifestyle_complete" Name="lifestyle_complete" DataType="text" Length="1" redcap:Variable="lifestyle_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="lifestyle_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="mobility" Name="mobility" DataType="text" Length="1" redcap:Variable="mobility" redcap:FieldType="select">
+		<Question><TranslatedText>Mobility</TranslatedText></Question>
+		<CodeListRef CodeListOID="mobility.choices"/>
+	</ItemDef>
+	<ItemDef OID="self_care" Name="self_care" DataType="text" Length="1" redcap:Variable="self_care" redcap:FieldType="select">
+		<Question><TranslatedText>Self care</TranslatedText></Question>
+		<CodeListRef CodeListOID="self_care.choices"/>
+	</ItemDef>
+	<ItemDef OID="usual_activities" Name="usual_activities" DataType="text" Length="1" redcap:Variable="usual_activities" redcap:FieldType="select">
+		<Question><TranslatedText>Usual activities</TranslatedText></Question>
+		<CodeListRef CodeListOID="usual_activities.choices"/>
+	</ItemDef>
+	<ItemDef OID="pain_discomfort" Name="pain_discomfort" DataType="text" Length="1" redcap:Variable="pain_discomfort" redcap:FieldType="select">
+		<Question><TranslatedText>Pain / Discomfort</TranslatedText></Question>
+		<CodeListRef CodeListOID="pain_discomfort.choices"/>
+	</ItemDef>
+	<ItemDef OID="anxiety_depression" Name="anxiety_depression" DataType="text" Length="1" redcap:Variable="anxiety_depression" redcap:FieldType="select">
+		<Question><TranslatedText>Anxiety / Depression</TranslatedText></Question>
+		<CodeListRef CodeListOID="anxiety_depression.choices"/>
+	</ItemDef>
+	<ItemDef OID="health_today" Name="health_today" DataType="integer" Length="999" redcap:Variable="health_today" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="The worst health you can imagine |  | The best health you can imagine" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>Your health today</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="level_pain_discomfort" Name="level_pain_discomfort" DataType="integer" Length="999" redcap:Variable="level_pain_discomfort" redcap:FieldType="slider" redcap:TextValidationType="number" redcap:SliderLabels="No pain |  | Extreme pain" redcap:CustomAlignment="RH">
+		<Question><TranslatedText>Level of pain or discomfort</TranslatedText></Question>
+		<RangeCheck Comparator="LE" SoftHard="Soft">
+			<CheckValue>10</CheckValue>
+			<ErrorMessage><TranslatedText>The value you provided is outside the suggested range (no limit - 10). This value is admissible, but you may wish to double check it.</TranslatedText></ErrorMessage>
+		</RangeCheck>
+	</ItemDef>
+	<ItemDef OID="quality_of_life_complete" Name="quality_of_life_complete" DataType="text" Length="1" redcap:Variable="quality_of_life_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="quality_of_life_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="treat_effectiveness" Name="treat_effectiveness" DataType="text" Length="1" redcap:Variable="treat_effectiveness" redcap:FieldType="radio">
+		<Question><TranslatedText>Treatment effectiveness</TranslatedText></Question>
+		<CodeListRef CodeListOID="treat_effectiveness.choices"/>
+	</ItemDef>
+	<ItemDef OID="treatment_outcomes_complete" Name="treatment_outcomes_complete" DataType="text" Length="1" redcap:Variable="treatment_outcomes_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="treatment_outcomes_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="description" Name="description" DataType="text" Length="999" redcap:Variable="description" redcap:FieldType="text">
+		<Question><TranslatedText>Description</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="date_start" Name="date_start" DataType="date" Length="999" redcap:Variable="date_start" redcap:FieldType="text" redcap:TextValidationType="date_dmy">
+		<Question><TranslatedText>Start date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="date_end" Name="date_end" DataType="date" Length="999" redcap:Variable="date_end" redcap:FieldType="text" redcap:TextValidationType="date_dmy">
+		<Question><TranslatedText>End date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="side_effects_complete" Name="side_effects_complete" DataType="text" Length="1" redcap:Variable="side_effects_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="side_effects_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="sex.choices" Name="sex" DataType="text" redcap:Variable="sex">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Female</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Male</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="level_education.choices" Name="level_education" DataType="text" redcap:Variable="level_education">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No formal education</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Incomplete EGB/ESO (compulsory education)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Incomplete Baccalaureate, Intermediate Vocational Training (FP-I) or intermediate-level vocational course</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Completed Baccalaureate, Advanced Vocational Training (FP-II) or higher-level vocational course</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Some university (incomplete)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>University degree (complete)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Higher education: doctorate</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="demographics_complete.choices" Name="demographics_complete" DataType="text" redcap:Variable="demographics_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="mi.choices" Name="mi" DataType="text" redcap:Variable="mi">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="chf.choices" Name="chf" DataType="text" redcap:Variable="chf">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pvd.choices" Name="pvd" DataType="text" redcap:Variable="pvd">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="cva_tia.choices" Name="cva_tia" DataType="text" redcap:Variable="cva_tia">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dementia.choices" Name="dementia" DataType="text" redcap:Variable="dementia">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="cpd.choices" Name="cpd" DataType="text" redcap:Variable="cpd">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="ctd.choices" Name="ctd" DataType="text" redcap:Variable="ctd">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pud.choices" Name="pud" DataType="text" redcap:Variable="pud">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="liver_disease.choices" Name="liver_disease" DataType="text" redcap:Variable="liver_disease">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>None</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Mild</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Moderate to severe</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="dm.choices" Name="dm" DataType="text" redcap:Variable="dm">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>None or diet-controlled</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Uncomplicated</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>End-organ damage</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="hemiplegia.choices" Name="hemiplegia" DataType="text" redcap:Variable="hemiplegia">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="ckd.choices" Name="ckd" DataType="text" redcap:Variable="ckd">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="leukemia.choices" Name="leukemia" DataType="text" redcap:Variable="leukemia">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="lymphoma.choices" Name="lymphoma" DataType="text" redcap:Variable="lymphoma">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="solid_tumor.choices" Name="solid_tumor" DataType="text" redcap:Variable="solid_tumor">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>None</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Localized</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Metastatic</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="aids.choices" Name="aids" DataType="text" redcap:Variable="aids">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="6"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="medication___0.choices" Name="medication___0" DataType="boolean" redcap:Variable="medication" redcap:CheckboxChoices="0, Amikacin | 1, Cefotaxime | 2, Cefepime | 3, Fosfomycin | 4, Meropenem">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="medication___1.choices" Name="medication___1" DataType="boolean" redcap:Variable="medication" redcap:CheckboxChoices="0, Amikacin | 1, Cefotaxime | 2, Cefepime | 3, Fosfomycin | 4, Meropenem">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="medication___2.choices" Name="medication___2" DataType="boolean" redcap:Variable="medication" redcap:CheckboxChoices="0, Amikacin | 1, Cefotaxime | 2, Cefepime | 3, Fosfomycin | 4, Meropenem">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="medication___3.choices" Name="medication___3" DataType="boolean" redcap:Variable="medication" redcap:CheckboxChoices="0, Amikacin | 1, Cefotaxime | 2, Cefepime | 3, Fosfomycin | 4, Meropenem">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="medication___4.choices" Name="medication___4" DataType="boolean" redcap:Variable="medication" redcap:CheckboxChoices="0, Amikacin | 1, Cefotaxime | 2, Cefepime | 3, Fosfomycin | 4, Meropenem">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="clinical_complete.choices" Name="clinical_complete" DataType="text" redcap:Variable="clinical_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="physical_activity.choices" Name="physical_activity" DataType="text" redcap:Variable="physical_activity">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Daily</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>3 times per week</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Weekly</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Monthly</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>Does not exercise</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="tobacco.choices" Name="tobacco" DataType="text" redcap:Variable="tobacco">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="alcohol.choices" Name="alcohol" DataType="text" redcap:Variable="alcohol">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>No</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Yes</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="lifestyle_complete.choices" Name="lifestyle_complete" DataType="text" redcap:Variable="lifestyle_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="mobility.choices" Name="mobility" DataType="text" redcap:Variable="mobility">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>I have no problems in walking about</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>I have slight problems in walking about</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>I have moderate problems in walking about</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>I have severe problems in walking about</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>I am unable to walk about</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="self_care.choices" Name="self_care" DataType="text" redcap:Variable="self_care">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>I have no problems washing or dressing myself</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>I have slight problems washing or dressing myself</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>I have moderate problems washing or dressing myself</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>I have severe problems washing or dressing myself</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>I am unable to wash or dress myself</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="usual_activities.choices" Name="usual_activities" DataType="text" redcap:Variable="usual_activities">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>I have no problems doing my usual activities</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>I have slight problems doing my usual activities</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>I have moderate problems doing my usual activities</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>I have severe problems doing my usual activities</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>I am unable to do my usual activities</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="pain_discomfort.choices" Name="pain_discomfort" DataType="text" redcap:Variable="pain_discomfort">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>I have no pain or discomfort</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>I have slight pain or discomfort</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>I have moderate pain or discomfort</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>I have severe pain or discomfort</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>I have extreme pain or discomfort</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="anxiety_depression.choices" Name="anxiety_depression" DataType="text" redcap:Variable="anxiety_depression">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>I am not anxious or depressed</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>I am slightly anxious or depressed</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>I am moderately anxious or depressed</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="4"><Decode><TranslatedText>I am severely anxious or depressed</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="5"><Decode><TranslatedText>I am extremely anxious or depressed</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="quality_of_life_complete.choices" Name="quality_of_life_complete" DataType="text" redcap:Variable="quality_of_life_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="treat_effectiveness.choices" Name="treat_effectiveness" DataType="text" redcap:Variable="treat_effectiveness">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Worsening of symptoms</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>No apparent change</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Improvement of symptoms</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="treatment_outcomes_complete.choices" Name="treatment_outcomes_complete" DataType="text" redcap:Variable="treatment_outcomes_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="side_effects_complete.choices" Name="side_effects_complete" DataType="text" redcap:Variable="side_effects_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+<ClinicalData StudyOID="Project.CourseExerciseSolution" MetaDataVersionOID="Metadata.CourseExerciseSolution_2025-11-06_2020">
+	<SubjectData SubjectKey="1" redcap:RecordIdField="record_id">
+		<StudyEventData StudyEventOID="Event.baseline_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="baseline_arm_1">
+			<FormData FormOID="Form.demographics" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="demographics.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="1"/>
+					<ItemData ItemOID="date_visit" Value="2025-11-03"/>
+					<ItemData ItemOID="date_birth" Value="1940-11-19"/>
+					<ItemData ItemOID="age" Value="84"/>
+					<ItemData ItemOID="sex" Value="0"/>
+					<ItemData ItemOID="race" Value="White"/>
+					<ItemData ItemOID="level_education" Value="5"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="demographics.demographics_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="demographics_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.clinical" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="clinical.mi" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="mi" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="clinical.chf" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="chf" Value="0"/>
+					<ItemData ItemOID="pvd" Value="1"/>
+					<ItemData ItemOID="cva_tia" Value="1"/>
+					<ItemData ItemOID="dementia" Value="0"/>
+					<ItemData ItemOID="cpd" Value="1"/>
+					<ItemData ItemOID="ctd" Value="0"/>
+					<ItemData ItemOID="pud" Value="1"/>
+					<ItemData ItemOID="liver_disease" Value="1"/>
+					<ItemData ItemOID="dm" Value="0"/>
+					<ItemData ItemOID="hemiplegia" Value="0"/>
+					<ItemData ItemOID="ckd" Value="2"/>
+					<ItemData ItemOID="leukemia" Value="0"/>
+					<ItemData ItemOID="lymphoma" Value="0"/>
+					<ItemData ItemOID="solid_tumor" Value="0"/>
+					<ItemData ItemOID="aids" Value="0"/>
+					<ItemData ItemOID="cci" Value="11"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="clinical.temp" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="temp" Value="27"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="clinical.heart_rate" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="heart_rate" Value="100"/>
+					<ItemData ItemOID="blood_pressure" Value="100"/>
+					<ItemData ItemOID="medication___0" Value="0"/>
+					<ItemData ItemOID="medication___1" Value="0"/>
+					<ItemData ItemOID="medication___2" Value="1"/>
+					<ItemData ItemOID="medication___3" Value="1"/>
+					<ItemData ItemOID="medication___4" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="clinical.clinical_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="clinical_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.lifestyle" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="lifestyle.physical_activity" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="physical_activity" Value="1"/>
+					<ItemData ItemOID="tobacco" Value="0"/>
+					<ItemData ItemOID="alcohol" Value="1"/>
+					<ItemData ItemOID="alcohol_units" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="lifestyle.lifestyle_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="lifestyle_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.quality_of_life" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="quality_of_life.mobility" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="mobility" Value="1"/>
+					<ItemData ItemOID="self_care" Value="1"/>
+					<ItemData ItemOID="usual_activities" Value="1"/>
+					<ItemData ItemOID="pain_discomfort" Value="2"/>
+					<ItemData ItemOID="anxiety_depression" Value="2"/>
+					<ItemData ItemOID="health_today" Value="80"/>
+					<ItemData ItemOID="level_pain_discomfort" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="quality_of_life.quality_of_life_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="quality_of_life_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.visit_day_7_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="visit_day_7_arm_1">
+			<FormData FormOID="Form.treatment_outcomes" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="treatment_outcomes.treat_effectiveness" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="treat_effectiveness" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="treatment_outcomes.treatment_outcomes_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="treatment_outcomes_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.visit_day_14_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="visit_day_14_arm_1">
+			<FormData FormOID="Form.treatment_outcomes" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="treatment_outcomes.treat_effectiveness" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="treat_effectiveness" Value="0"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="treatment_outcomes.treatment_outcomes_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="treatment_outcomes_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.visit_day_30_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="visit_day_30_arm_1">
+			<FormData FormOID="Form.treatment_outcomes" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="treatment_outcomes.treat_effectiveness" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="treat_effectiveness" Value="2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="treatment_outcomes.treatment_outcomes_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="treatment_outcomes_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.visit_day_7_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="visit_day_7_arm_1">
+			<FormData FormOID="Form.side_effects" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="side_effects.description" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="description" Value="Fever"/>
+					<ItemData ItemOID="date_start" Value="2025-10-07"/>
+					<ItemData ItemOID="date_end" Value="2025-10-09"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="side_effects.side_effects_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="side_effects_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+		<StudyEventData StudyEventOID="Event.visit_day_14_arm_1" StudyEventRepeatKey="1" redcap:UniqueEventName="visit_day_14_arm_1">
+			<FormData FormOID="Form.side_effects" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="side_effects.description" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="description" Value="Headache"/>
+					<ItemData ItemOID="date_start" Value="2025-11-05"/>
+					<ItemData ItemOID="date_end" Value="2025-11-06"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="side_effects.side_effects_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="side_effects_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+			<FormData FormOID="Form.side_effects" FormRepeatKey="2">
+				<ItemGroupData ItemGroupOID="side_effects.description" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="description" Value="Nausea"/>
+					<ItemData ItemOID="date_start" Value="2025-11-05"/>
+					<ItemData ItemOID="date_end" Value="2025-11-06"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="side_effects.side_effects_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="side_effects_complete" Value="0"/>
+				</ItemGroupData>
+			</FormData>
+		</StudyEventData>
+	</SubjectData>
+</ClinicalData>
+</ODM>

@@ -35,7 +35,7 @@ Aquí pots descarregar-te les solucions dels exercicis que es troben a les diapo
 Solució de l'exercici QRD del curs:
 
 <ul>
-<li><a href="WWW/CourseExerciseSoluti_CDISC_ODM_2025-11-06_1413.xml" download="CourseExerciseSoluti_CDISC_ODM_2025-11-06_1413.xml">Solució Exercici QRD</a></li>
+<li><a href="WWW/CourseExerciseSoluti_2025-11-07_0843.REDCap.xml" download="CourseExerciseSoluti_2025-11-07_0843.REDCap.xml">Solució Exercici QRD</a></li>
 </ul>
 
 <i>Cal carregar l'arxiu 'XML' al REDCap per a poder crear el projecte que conté la solució.</i>
